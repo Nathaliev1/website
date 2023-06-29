@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'opensans';
+  src: url(fonts/OpenSans_SemiCondensed-Light.ttf);
+}
+@font-face {
+  font-family: 'opensans2';
+  src: url(fonts/OpenSans_Condensed-Bold);
+ }
+p {
+  font-family: 'opensans';
+  font-size: larger;
+  word-spacing: 5pt;
+  letter-spacing: 2pt;
+  padding: 15px;
+}
+a {
+  color: #a98467
+}
+.display-5{
+  font-family: 'opensans2';
+  
+}
+.container {
+  max-width: 960px;
+}
+
+.icon-link > .bi {
+  width: .75em;
+  height: .75em;
+  
+ }
+
+/*
+ * 
+ */
+
+
+ #zin{ 
+  background-color: #ffffff;
+  border-radius: 21px 21px 21px 21px;
+}
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    flex: 1;
+  }
+}
